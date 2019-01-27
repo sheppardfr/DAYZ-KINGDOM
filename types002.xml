@@ -15290,7 +15290,10 @@
         <value name="Tier2"/>
         <value name="Tier3"/>
      </type>
-	 <type name="Locker">
+	 
+	//BaseItem
+	
+	<type name="Locker">
         <nominal>60</nominal>
         <lifetime>3888000</lifetime>
         <restock>0</restock>
