@@ -246,6 +246,9 @@
 		gp_scout_green,			W,		15000,	-1
 		gp_vss,					W,		19000,	-1
 		SVD,					W,		21000,	-1
+		leeenfield,      			W,  		400,  	40
+    		m14,  					W,  		400,  	40
+    		m24,  					W,  		400,  	40
 
 		
 <Trader> Marchand de fournitures d'armes
@@ -315,6 +318,11 @@
 		Mag_SVD_10Rnd,			M,		2100,	-1
 		Mag_M249_Box200Rnd,		M,		2100,	-1
 		Mag_AKM_Drum75Rnd,		M,		2100,	-1
+		Mag_M14_20rnd, 			M,  		250,    25
+    		Mag_G36_30rnd,  		M,  		250,    25
+    		Mag_G18_30rnd,  		M,  		250,    25
+    		Mag_M18_15rnd,  		M,  		150,    12
+    		Mag_Mac10_30rnd,    		M,  		250,    25
 		
 	<Category> Garde-mains
 		MP5_PlasticHndgrd,		*,		1000,	-1
@@ -336,10 +344,11 @@
 		KobraOptic,				*,		2000,	-1
 		ACOGOptic,				*,		3000,	-1
 		M68Optic,				*,		5000,	-1
-		PUScopeOptic,			*,		5000,	-1		
+		PUScopeOptic,				*,		5000,	-1		
 		PSO1Optic,				*,		5000,	-1
-		HuntingOptic,			*,		5000,	-1
-	
+		HuntingOptic,				*,		5000,	-1
+		LongrangeOptic, 			*,  		2500,   250
+		
 	<Category> Silencieux
 		PistolSuppressor,		*,		1500,	-1
 		AK_Suppressor,			*,		2500,	-1
