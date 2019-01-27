@@ -220,110 +220,123 @@
 		Bear_White,				*,		5,		1
 
 		
-<Trader> Weapon Trader
-	<Category> Melee	
-		BrassKnuckles_Shiny,	W,		15,		6
-		StunBaton,				W,		15,		9
-		Pipe,					W,		25,		10
-		CattleProd,				W,		25,		15
-		NailedBaseballBat,		W,		45,		20
-		
-	<Category> Sidearms
-		MakarovIJ70,			W,		100,	50
-		CZ75,					W,		135,	70
-		FNX45,					W,		175,	90
-		
-	<Category> Single-Barrel Rifles
-		Izh18,					W,		350,	175
-		Mosin9130,				W,		400,	200
-		
-	<Category> Shotguns
-		Mp133Shotgun,			W,		500,	250
-		
-	<Category> Submachine Guns
-		CZ61,					W,		700,	300
-		UMP45,					W,		800,	350
-		MP5K,					W,		1000,	450		
-		
-	<Category> Assault Rifles
-		AKM,					W,		1500,	750
-		M4A1,					W,		1500,	750
-		
-	//<Category> Light Machine Guns
-		
-	<Category> Sniper Rifles
-		SVD,					W,		2000,	1200
+<Trader> Weapon Trader                    
+  	<Category> Melee                        
+		BrassKnuckles_Shiny,  W,    15,   6   
+		StunBaton,        W,    15,   9       
+		Pipe,         W,    25,   10          
+		CattleProd,       W,    25,   15      
+		NailedBaseballBat,    W,    45,   20
 
-		
-<Trader> Weapon Supplies
-	<Category> Ammunition
-		Ammo_380,				1,		1,		0
-		Ammo_9x19,				1,		1,		0
-		Ammo_45ACP,				1,		1,		0
-		Ammo_12gaPellets,		1,		3,		1
-		Ammo_12gaSlug,			1,		4,		2
-		Ammo_556x45,			1,		5,		3
-		Ammo_762x39,			1,		5,		3
-		Ammo_762x54,			1,		10,		6
+  	<Category> Sidearms
+		MakarovIJ70,      W,    100,  50
+		CZ75,         W,    135,  70
+		FNX45,          W,    175,  90
+		Glock18,  W,  175,  17
+
+ 	<Category> Single-Barrel Rifles
+		Izh18,          W,    350,  175
+		Mosin9130,        W,    400,  200
+		leeenfield,       W,    400,  40
+		m14,  W,  400,  40
+		m24,  W,  400,  40
+
+ 	<Category> Shotguns
+    		Mp133Shotgun,     W,    500,  250
+
+  	<Category> Submachine Guns
+		CZ61,         W,    700,  300
+		UMP45,          W,    800,  350
+		MP5K,         W,    1000, 450
+		G36,  W,  1000, 100
+		Mac10,  W,  500,  250
+
+  	<Category> Assault Rifles
+		AKM,          W,    1500, 750
+		M4A1,         W,    1500, 750
+
+  //<Category> Light Machine Guns
+
+  	<Category> Sniper Rifles
+		SVD,          W,    2000, 1200
+
+
+<Trader> Weapon Supplies                    
+  	<Category> Ammunition                     
+		Ammo_380,       1,    1,    0           
+		Ammo_9x19,        1,    1,    0        
+		Ammo_45ACP,       1,    1,    0         
+		Ammo_12gaPellets,   1,    3,    1       
+		Ammo_12gaSlug,      1,    4,    2
+		Ammo_556x45,      1,    5,    3
+		Ammo_762x39,      1,    5,    3
+		Ammo_762x54,      1,    10,   6
 		// When changing Prices here keep in Mind that Players
 		// can just unpack the Ammoboxes and sell the Ammo seperatly!
 		// Originally the Ammoboxes buying Price is 20% less than
 		// buying single Ammo. The Selling Price is the same as
 		// selling the Ammo seperately.
-		AmmoBox_380_35rnd,		*,		28,		0
-		AmmoBox_9x19_25rnd,		*,		20,		0
-		AmmoBox_45ACP_25rnd,	*,		20,		0
-		AmmoBox_00buck_10rnd,	*,		24,		10
-		AmmoBox_12gaSlug_10Rnd,	*,		32,		20
-		AmmoBox_556x45_20Rnd,	*,		80,		60
-		AmmoBox_762x39_20Rnd,	*,		80,		60
-		AmmoBox_762x54_20Rnd,	*,		200,	120
-		
-	<Category> Magazines
-		Mag_IJ70_8Rnd,			M,		30,		15
-		Mag_CZ75_15Rnd,			M,		40,		20
-		Mag_FNX45_15Rnd,		M,		40,		20
-		Mag_CZ61_20Rnd,			M,		100,	50
-		Mag_UMP_25Rnd,			M,		150,	75
-		Mag_MP5_30Rnd,			M,		200,	100
-		Mag_AKM_30Rnd,			M,		220,	110
-		Mag_STANAG_30Rnd,		M,		220,	110
-		Mag_SVD_10Rnd,			M,		250,	125
-		
-	<Category> Handguards
-		MP5_PlasticHndgrd,		*,		100,	50
-		MP5_RailHndgrd,			*,		150,	75
-		AK_WoodHndgrd,			*,		200,	100
-		M4_PlasticHndgrd,		*,		150,	75
-		M4_RISHndgrd,			*,		200,	100
-		
-	<Category> Buttstocks
-		MP5k_StockBttstck,		*,		100,	50
-		AK_PlasticBttstck,		*,		100,	50
-		AK_WoodBttstck,			*,		150,	75
-		AK_FoldingBttstck,		*,		250,	125
-		M4_OEBttstck,			*,		150,	75
-	
-	<Category> Optics
-		M4_CarryHandleOptic,	*,		150,	60
-		ACOGOptic,				*,		300,	120
-		M68Optic,				*,		500,	200
-		KobraOptic,				*,		600,	250
-		PUScopeOptic,			*,		900,	500		
-		PSO1Optic,				*,		1100,	600	
-	
-	<Category> Supressors
-		PistolSuppressor,		*,		150,	75
-		AK_Suppressor,			*,		250,	125
-		M4_Suppressor,			*,		250,	125
-		
-	<Category> Compensators
-		MP5_Compensator,		*,		200,	100
+		AmmoBox_380_35rnd,    *,    28,   0
+		AmmoBox_9x19_25rnd,   *,    20,   0
+		AmmoBox_45ACP_25rnd,  *,    20,   0
+		AmmoBox_00buck_10rnd, *,    24,   10
+		AmmoBox_12gaSlug_10Rnd, *,    32,   20
+		AmmoBox_556x45_20Rnd, *,    80,   60
+		AmmoBox_762x39_20Rnd, *,    80,   60
+		AmmoBox_762x54_20Rnd, *,    200,  120
 
-	<Category> Flashlights
-		Universallight,			*,		120,	60
-	
+  	<Category> Magazines
+		Mag_IJ70_8Rnd,      M,    30,   15
+		Mag_CZ75_15Rnd,     M,    40,   20
+		Mag_FNX45_15Rnd,    M,    40,   20
+		Mag_CZ61_20Rnd,     M,    100,  50
+		Mag_UMP_25Rnd,      M,    150,  75
+		Mag_MP5_30Rnd,      M,    200,  100
+		Mag_AKM_30Rnd,      M,    220,  110
+		Mag_STANAG_30Rnd,   M,    220,  110
+		Mag_SVD_10Rnd,      M,    250,  125
+		mag_m14_20rnd,  M,  250,    25
+		mag_G36_30rnd,  M,  250,    25
+		mag_g18_30rnd,  M,  250,    25
+		mag_g18_15rnd,  M,  150,    12
+		mag_mac10_30rnd,    M,  250,    25
 
+  	<Category> Handguards
+		MP5_PlasticHndgrd,    *,    100,  50
+		MP5_RailHndgrd,     *,    150,  75
+		AK_WoodHndgrd,      *,    200,  100
+		M4_PlasticHndgrd,   *,    150,  75
+		M4_RISHndgrd,     *,    200,  100
+
+  	<Category> Buttstocks
+		MP5k_StockBttstck,    *,    100,  50
+		AK_PlasticBttstck,    *,    100,  50
+		AK_WoodBttstck,     *,    150,  75
+		AK_FoldingBttstck,    *,    250,  125
+		M4_OEBttstck,     *,    150,  75
+
+  	<Category> Optics
+		M4_CarryHandleOptic,  *,    150,  60
+		ACOGOptic,        *,    300,  120
+		M68Optic,       *,    500,  200
+		KobraOptic,       *,    600,  250
+		PUScopeOptic,     *,    900,  500
+		PSO1Optic,        *,    1100, 600
+		HuntingOptic,   *,  2500,   250
+		LongrangeOptic, *,  2500,   250
+
+  	<Category> Supressors
+		PistolSuppressor,   *,    150,  75
+		AK_Suppressor,      *,    250,  125
+		M4_Suppressor,      *,    250,  125
+
+  	<Category> Compensators
+		MP5_Compensator,    *,    200,  100
+
+  	<Category> Flashlights
+		Universallight,     *,    120,  60
+	
+	
 <Trader> Clothing Trader
 	<Category> Glasses
 		SportGlasses_Orange,	*,		17,		8
