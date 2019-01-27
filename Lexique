@@ -1,0 +1,149 @@
+nominal		How many items spawn of this type, assuming there is enough loot spaces and CE queue is open, and restock timer is 0		0 = no spawn
+			    Nombre d'objet spawn de ce type , en supposant qu'il y est assez de place, que le central eco soit libre et que le chronometre de restock est a 0
+			 
+lifetime	How long (in seconds) something will be out before despawning, after being idle (no interaction)							3600 = 1 hour, 3888000 = until server restart
+			    Temps (en secondes) qu'un objet met a despawn aprés la derniere interaction
+
+restock		Similar to lifetime, if 0, CE attempts to respawn in batches. If > 0, it is time (in seconds) before ONE item is spawned	only restocks when nominal > min. 1800 = 30 minutes
+			    Similaire a lifetime , si 0 , CE essaye de respawn en lots. si > 0 , c'est la temps (en secondes) avant qu'un SEUL objet ne spawn
+
+min			Minimum count of item on map, effected by nominal. If count falls below this, they are prioritized in restock queue.		100 is average, above or below accordingly
+			  Nombres Minimum d'un objet sur la carte , impacté par la valeur nominal. Si le compte passe en dessous alors le restock est prioritaire dans la queue
+
+quantmin	Percentage of minimum amount of item there is (in stack)																	0 - 100%, magazines, water bottle fullness
+			    Pourcentage minimum de la quantité d'un objet (en pile)
+			
+quantmax	Percentage of maximum amount of item there is (in stack)																	0 - 100%, magazines, water bottle fullness
+			    Pourcentage maximum de la quantité d'un objet (en pile)
+
+cost		Priority during restock and cleanup in CE, higher = more common																0 - 100
+			  Priorité pendant le restock et le nettoyage dans la CE, plus haute = plus commun
+
+flags		Attributes if the item is available in map, by craft, or in cargo															crafted="1"
+			  Definie comment est disponible un objet map/craft/inventaire
+
+category	Loot category for spawn locations to choose from																			Links to mapgroupproto.xml for loot locations
+			
+
+tag			Loot "location" within the group - only 1 per item																			name="shelves", name="floor"
+
+
+usage		Loot "groups" that can spawn the item - multiple per item																	name="Military", name="Town", name="Industrial"
+
+
+value		Rarity
+
+
+Precedence of grouping:			1. Usage	2. Category
+priorité de regroupement
+
+All categories, tags, usageflags, and valueflags link back to cfglimitsdefinition.xml.
+
+
+
+Tags					shelves;floor
+
+Usage(groups)    		Coast;Farm;Firefighter;Hunting;Industrial;Medic;Military;Police;Prison;School;Town;Village
+
+
+
+Nominal Values
+0
+1
+3
+5
+7
+8
+10
+15
+20
+25
+30
+35
+40
+50
+60
+70
+75
+80
+90
+100
+120
+130
+150
+200
+210
+250
+300
+
+Lifetime Values
+0
+300
+900
+1800
+3600
+5600
+7200
+10800
+21600
+3888000
+
+Restock Values
+0
+300
+600
+1800
+14400
+
+Min Values
+0
+1
+2
+3
+4
+5
+6
+7
+8
+10
+15
+20
+25
+26
+30
+34
+35
+40
+50
+52
+60
+66
+70
+80
+90
+100
+132
+140
+150
+160
+200
+
+QuantMin Values
+-1
+8
+10
+15
+20
+25
+30
+35
+40
+
+QuantMax Values
+-1
+15
+50
+70
+80
+90
+100
